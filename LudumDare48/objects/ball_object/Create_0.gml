@@ -2,6 +2,7 @@ function initialise_ball()
 {
 	x_speed = 0;
 	y_speed = 0;
+	max_speed = 500;
 	_gravity = 0.5;
 	can_move = false;
 	grounded = false;
@@ -33,7 +34,7 @@ function check_mouse_input()
 				var _direction = point_direction(mouse_x, mouse_y, clicked_x, clicked_y);
 				var _distance = point_distance(mouse_x, mouse_y, clicked_x, clicked_y);
 
-				_distance = clamp(_distance, 0, 500);
+				_distance = clamp(_distance, 0, max_speed);
 		
 		        x_speed = lengthdir_x(_distance / 10, _direction);
 		        y_speed = lengthdir_y(_distance / 10, _direction);
@@ -152,15 +153,11 @@ function check_green_collision()
 }
 function check_water_collision()
 {
-	if (place_meeting(x, y + y_speed, water_object))
+	if (place_meeting(x, y, water_object))
 	{
-	    while (!place_meeting(x, y + sign(y_speed), water_object))
-		{
-	        y += sign(y_speed);
-	    }
-	    y_speed = y_speed / 1.75;
-		x_speed = x_speed / 1.75;
-	}	
+		y_speed = y_speed / 1.5;
+		x_speed = x_speed / 1.5;
+	}
 }
 function check_boost_collision()
 {

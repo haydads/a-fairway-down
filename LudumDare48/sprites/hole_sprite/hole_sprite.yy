@@ -29,8 +29,8 @@
         {"FrameId":{"name":"c46acd38-9f87-4161-af42-9b0273fa1aa4","path":"sprites/hole_sprite/hole_sprite.yy",},"LayerId":{"name":"a09dfe3e-ee45-4074-8e08-138a9e2a5de4","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"hole_sprite","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"c46acd38-9f87-4161-af42-9b0273fa1aa4","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ccef4434-ea4f-4819-8434-8382a5674fcb","path":"sprites/hole_sprite/hole_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ccef4434-ea4f-4819-8434-8382a5674fcb","path":"sprites/hole_sprite/hole_sprite.yy",},"LayerId":{"name":"a09dfe3e-ee45-4074-8e08-138a9e2a5de4","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"ccef4434-ea4f-4819-8434-8382a5674fcb","path":"sprites/hole_sprite/hole_sprite.yy",},"LayerId":{"name":"d7e6d9a4-bd98-4f1b-8207-1e96c6683519","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ccef4434-ea4f-4819-8434-8382a5674fcb","path":"sprites/hole_sprite/hole_sprite.yy",},"LayerId":{"name":"a09dfe3e-ee45-4074-8e08-138a9e2a5de4","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"hole_sprite","path":"sprites/hole_sprite/hole_sprite.yy",},"resourceVersion":"1.0","name":"ccef4434-ea4f-4819-8434-8382a5674fcb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -76,8 +76,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Terrain",
+    "path": "folders/Objects/Terrain.yy",
   },
   "resourceVersion": "1.0",
   "name": "hole_sprite",

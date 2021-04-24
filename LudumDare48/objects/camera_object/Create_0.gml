@@ -42,15 +42,6 @@ function move_camera()
 		}
 	}
 }
-function deactivate_other_holes()
-{
-	var _x = 0;
-	var _y = 80 + (1000 * global.hole - 1);
-	var _width = room_width;
-	var _height = 1000;
-	
-	instance_deactivate_region(_x, _y, _width, _height, false, true);	
-}
 
 
 initialise_camera();

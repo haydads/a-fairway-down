@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Terrain",
+    "path": "folders/Objects/Terrain.yy",
   },
   "resourceVersion": "1.0",
   "name": "boost_object",
