@@ -1,0 +1,2 @@
+center = true;
+text = "Nicely Done! You completed all 18 Holes!\nThanks for playing 'A fairway Down!'\nThis games was made as part of the Ludum Dare 48 Game Jam\nThis is my second \"completed\" game, so any feedback is very much appreciated!\nWhat were the best/worst holes? Have a favourite?\nAlso be sure to share what scores you got!"

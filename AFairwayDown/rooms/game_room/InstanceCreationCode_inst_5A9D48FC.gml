@@ -1,0 +1,1 @@
+text = "Is it just me or is it getting hot?";

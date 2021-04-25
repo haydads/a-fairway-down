@@ -1,0 +1,1 @@
+text = "While still holding the Left Mouse Button,\nPress to cancel current shot"

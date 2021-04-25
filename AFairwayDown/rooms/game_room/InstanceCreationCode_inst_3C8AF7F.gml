@@ -1,0 +1,1 @@
+text = "Oh cool, a sandcastle!"

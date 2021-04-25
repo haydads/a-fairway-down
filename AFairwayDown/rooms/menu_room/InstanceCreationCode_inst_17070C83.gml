@@ -1,0 +1,1 @@
+text = "Hold and Drag anywhere on the screen to start aiming.\nRelease to move the ball in the desired direction ";

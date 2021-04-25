@@ -1,0 +1,1 @@
+text = "Wasn't the theme \"Deeper and Deeper\"?... Why are we playing golf?"

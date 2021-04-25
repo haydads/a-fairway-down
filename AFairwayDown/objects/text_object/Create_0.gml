@@ -1,0 +1,2 @@
+text = "";
+center = false;
