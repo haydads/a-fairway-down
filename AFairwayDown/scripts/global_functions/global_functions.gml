@@ -1,4 +1,5 @@
 global.strokes = 0;
+global.current_hits = 0;
 global.hole = 1;
 
 function go_to_hole(_number)

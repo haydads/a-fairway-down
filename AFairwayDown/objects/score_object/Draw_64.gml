@@ -17,8 +17,14 @@ else
 
 draw_set_halign(fa_left);
 draw_set_colour(c_white)
-draw_text(x + 40, y + 40, "Hole "+ string(global.hole));
-
+if(global.current_hits == 1)
+{
+	draw_text(x + 40, y + 40, "Hole "+ string(global.hole) + " - " + string(global.current_hits) + " Hit");
+}
+else
+{
+	draw_text(x + 40, y + 40, "Hole "+ string(global.hole) + " - " + string(global.current_hits) + " Hits");
+}
 draw_set_halign(fa_right);
 draw_set_colour(c_white)
 draw_text(room_width - 40, y + 40, "Press ESC to Quit");

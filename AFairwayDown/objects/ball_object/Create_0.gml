@@ -51,6 +51,7 @@ function check_mouse_input()
 		        x_speed = lengthdir_x(_distance / 10, _direction);
 		        y_speed = lengthdir_y(_distance / 10, _direction);
 				global.strokes += 1;
+				global.current_hits++;
 				clicked = false;
 				clicked_x = 0;
 				clicked_y = 0;
@@ -99,7 +100,7 @@ function check_wall_collision()
 	{
 	    if (abs(0 - x_speed) > 0.5)
 		{
-	        x_speed -= x_speed / 20;
+	        x_speed -= x_speed / 50;
 	    }
 		else 
 		{
@@ -198,6 +199,7 @@ function check_lava_collision()
 		x_speed = 0;
 		y_speed = 0;
 		global.strokes++;
+		global.current_hits++;
 	}
 }
 function check_boost_collision()
@@ -268,6 +270,7 @@ function check_start_collision()
 		respawn_y = y;
 		y_speed = 0;
 		x_speed = 0;
+		global.current_hits = 0;
 		instance_destroy(_start);
 	}
 }

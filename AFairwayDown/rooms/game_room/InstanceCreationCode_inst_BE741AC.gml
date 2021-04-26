@@ -1,1 +1,1 @@
-text = "...Or did someone did this out?";
+text = "...Or did someone dig this out?";
